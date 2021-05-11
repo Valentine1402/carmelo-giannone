@@ -1,0 +1,24 @@
+/* Custom font faces */
+@font-face {
+    font-family: 'BW Modelica';
+    font-weight: 300;
+    src: url(../fonts/BwModelica-Light.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'BW Modelica';
+    font-weight: 400;
+    src: url(../fonts/BwModelica-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'BW Modelica';
+    font-weight: 500;
+    src: url(../fonts/BwModelica-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'BW Modelica';
+    font-weight: 700;
+    src: url(../fonts/BwModelica-Bold.woff2) format("woff2");
+}
