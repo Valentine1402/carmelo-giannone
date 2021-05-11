@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <the-header></the-header>
+    <The-Header></The-Header>
     <Nuxt />
-    <the-footer></the-footer>
+    <TheFooter></TheFooter>
   </div>
 </template>
 

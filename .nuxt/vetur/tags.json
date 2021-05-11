@@ -1,5 +1,8 @@
 {
-  "Logo": {
-    "description": "Auto imported from components/Logo.vue"
+  "HeaderTheHeader": {
+    "description": "Auto imported from components/header/TheHeader.vue"
+  },
+  "FooterTheFooter": {
+    "description": "Auto imported from components/footer/TheFooter.vue"
   }
 }

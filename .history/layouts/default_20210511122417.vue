@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <the-header></the-header>
+    <TheHeader></TheHeader>
     <Nuxt />
-    <the-footer></the-footer>
+    <TheFooter></TheFooter>
   </div>
 </template>
 
@@ -12,8 +12,8 @@ import TheFooter from '~/components/footer/TheFooter'
 
 export default {
   components: {
-    TheHeader,
-    TheFooter
+    NavBar,
+    Footer
   }
 }
 
