@@ -12,8 +12,8 @@
     <div class="p-3 border">
       <ul class="flex justify-center">
         <li>Seguimi sui social</li>
-        <li class="mx-2"><i class="fab fa-facebook"></i></li>
-        <li class=""><i class="fab fa-instagram"></i></li>
+        <li class="mx-2"><a href="https://www.facebook.com/carmelo.giannone.7921" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li class=""><a href="https://www.instagram.com/capitano_carm/" target="_blank"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
   </div>
