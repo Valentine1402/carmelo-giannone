@@ -1,5 +1,5 @@
 <template>
-  <div>main</div>
+  <div class="border h-96">main</div>
 </template>
 
 <script>

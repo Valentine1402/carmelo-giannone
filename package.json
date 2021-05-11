@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
     "init": "^0.1.2",
