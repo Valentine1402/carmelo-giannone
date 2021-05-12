@@ -24,7 +24,6 @@ export default {
   data () {
     return {
       item: {
-        id: 1,
         date: '©2021',
         name: 'Carmelo Giannone',
         creator: 'Powered by',
