@@ -27,7 +27,7 @@
         <li @click="toggleNavMenu" class="nav-icon"><i class="fas fa-bars"></i></li>
       </ul>
     </nav>
-    <nav class="nav-menu-mobile w-full  px-6 bg-backgroundBlue fixed top-12">
+    <nav class="nav-menu-mobile w-full px-6 bg-backgroundBlue fixed top-12">
       <!-- <div class="">
           <p class="text-right"><i class="fas fa-times"></i></p>
       </div> -->

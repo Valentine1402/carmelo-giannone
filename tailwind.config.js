@@ -83,6 +83,9 @@ module.exports = {
         2: '50%',
         3: '75%',
         full: '100%'
+      },
+      height: {
+        100: '30rem'
       }
     }
   },

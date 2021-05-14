@@ -2,6 +2,21 @@
   "FooterTheFooter": {
     "description": "Auto imported from components/footer/TheFooter.vue"
   },
+  "CarouselArrowButton": {
+    "description": "Auto imported from components/carousel/ArrowButton.vue"
+  },
+  "CarouselCard": {
+    "description": "Auto imported from components/carousel/Card.vue"
+  },
+  "Carousel": {
+    "description": "Auto imported from components/carousel/Carousel.vue"
+  },
+  "CarouselIndicators": {
+    "description": "Auto imported from components/carousel/Indicators.vue"
+  },
+  "CarouselTheCarousel": {
+    "description": "Auto imported from components/carousel/TheCarousel.vue"
+  },
   "HeaderNavBar": {
     "description": "Auto imported from components/header/NavBar.vue"
   },
