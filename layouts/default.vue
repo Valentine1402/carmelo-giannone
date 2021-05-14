@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="">
     <the-header></the-header>
     <Nuxt />
     <the-footer></the-footer>

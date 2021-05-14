@@ -15,7 +15,7 @@ module.exports = {
         secondary: '#35A881',
         accent: '#E15447',
         headingBlue: '#041846',
-        backgroundBlue: '#D7E1E5',
+        backgroundBlue: '#d5e1eb',
         aguaBlue: '#8ac4ce',
         inputBorder:'#8d924c',
         blueMarine: '#13758d',
