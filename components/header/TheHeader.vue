@@ -23,14 +23,15 @@
         <li class="mx-5 nav-menu-desktop">
           {{ item.contact }}
         </li>
-        <li @click="toggleNavMenu" class="nav-icon" ><i class="fas fa-bars"></i></li>
+        <li @click="toggleNavMenu" class="nav-icon"><i class="fas fa-bars"></i></li>
       </ul>
     </nav>
-    <nav class="nav-menu-mobile w-full mt-12 py-3 px-6 bg-backgroundBlue fixed" :class="{active: isActive}">
+    <nav class="nav-menu-mobile w-full py-3 px-6 bg-backgroundBlue fixed top-12">
       <!-- <div class="">
           <p class="text-right"><i class="fas fa-times"></i></p>
       </div> -->
-      <div>
+    <transition name="fade"> 
+      <div v-if="isActive">
         <ul class="flex-col">
           <li class="py-2">
             {{ item.who }}
@@ -46,6 +47,7 @@
           </li>
         </ul>
       </div>
+    </transition>
     </nav>
   </div>
 </template>
@@ -97,15 +99,19 @@ export default {
   background-repeat: no-repeat;
   background-image: url("~assets/img/balata.jpeg");
 }
-
 nav {
   z-index: 10;
 }
-
 nav.scrolled {
   @apply shadow-2xl;
   border-bottom: 0px;
   background-color: #d5e1eb;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 
 /* for smartphone */
@@ -115,12 +121,6 @@ nav.scrolled {
   }
   .nav-icon {
     display: block;
-  }
-  .active {
-    display: none;
-  }
-  .co{
-    color: red;
   }
 }
 
