@@ -1,12 +1,12 @@
 {
-  "BooksCardBook": {
-    "description": "Auto imported from components/books/CardBook.vue"
+  "Books": {
+    "description": "Auto imported from components/books/Books.vue"
+  },
+  "BooksCard": {
+    "description": "Auto imported from components/books/Card.vue"
   },
   "BooksShop": {
     "description": "Auto imported from components/books/Shop.vue"
-  },
-  "BooksShopBook": {
-    "description": "Auto imported from components/books/ShopBook.vue"
   },
   "FooterTheFooter": {
     "description": "Auto imported from components/footer/TheFooter.vue"
@@ -20,14 +20,14 @@
   "CarouselArrowButton": {
     "description": "Auto imported from components/carousel/ArrowButton.vue"
   },
-  "CarouselCard": {
-    "description": "Auto imported from components/carousel/Card.vue"
-  },
   "Carousel": {
     "description": "Auto imported from components/carousel/Carousel.vue"
   },
   "CarouselIndicators": {
     "description": "Auto imported from components/carousel/Indicators.vue"
+  },
+  "CarouselSlider": {
+    "description": "Auto imported from components/carousel/Slider.vue"
   },
   "CarouselTheCarousel": {
     "description": "Auto imported from components/carousel/TheCarousel.vue"

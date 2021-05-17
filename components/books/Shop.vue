@@ -1,19 +1,19 @@
 <template>
-  <ul class="bg-blueList ">
-    <shop-book :cards="ShopBook"></shop-book>
+  <ul>
+    <books :cards="books"></books>
   </ul>
 </template>
 
 <script>
-import ShopBook from '~/components/books/ShopBook.vue'
+import books from '~/components/books/Books.vue'
 export default {
-  name:'Shop',
+  name:'shop',
   components: {
-    ShopBook
+    books
   },
   data() {
     return {
-      ShopBook: [
+      books: [
         {
           id: '1',
           title:'Umande',

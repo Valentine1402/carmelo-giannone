@@ -1,6 +1,6 @@
 <template>
-   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 container mx-auto">
-    <card-book
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 bg-blueList">
+    <card
       v-for="card in cards"
       :key="card.id"
       :image="card.image"
@@ -8,17 +8,17 @@
       :description="card.description"
       :editor="card.editor"
       :year="card.year"
-    ></card-book>
+    ></card>
   </div>
 </template>
 <script>
-import CardBook from './CardBook.vue';
+import Card from './Card.vue';
 
 export default {
-  name:'ShopBook',
+  name:'books',
   props: ['cards'],
   components: {
-    CardBook
+    Card
   }
 }
 </script>

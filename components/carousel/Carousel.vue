@@ -8,7 +8,7 @@
         @click.native='showPrevElement'
         :disabled='this.reachedMaxLeft'
       />
-      <Card
+      <Slider
         class='current-element'
         :headline='currentElement.headline'
         :text='currentElement.text'
@@ -33,14 +33,14 @@
 </div>
 </template>
 <script>
-import Card from '~/components/carousel/Card.vue';
+import Slider from '~/components/carousel/Slider.vue';
 import ArrowButton from '~/components/carousel/ArrowButton.vue';
 import Indicators from '~/components/carousel/Indicators.vue';
 
 export default {
   name: 'Carousel',
   props: { cards: Array },
-  components: { Card, ArrowButton, Indicators },
+  components: { Slider, ArrowButton, Indicators },
 
   data() {
     return {
