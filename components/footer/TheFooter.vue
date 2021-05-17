@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="p-3 border">
+    <div class="p-3 border bg-blueMarine text-white">
       <ul class="flex justify-center">
         <li>Seguimi sui social</li>
         <li class="mx-2"><a href="https://www.facebook.com/carmelo.giannone.7921" target="_blank"><i class="fab fa-facebook"></i></a></li>
         <li><a href="https://www.instagram.com/capitano_carm/" target="_blank"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
-    <div class="p-3 border">
+    <div class="p-3 border bg-blueMarine text-white">
       <ul class="md:flex text-center md:justify-center text-3xs md:text-sm lg:text-base">
       <li class="mx-3">{{ item.date }}</li><span class="hidden md:block">|</span>
       <li class="mx-3">{{ item.name }}</li><span class="hidden md:block">|</span>

@@ -1,19 +1,16 @@
 <template>
-  <div>
-    <main class="h-96">
-      <h1>{{ headline }}</h1>
-      <div class='section'>
-        <h2>{{this.sections[0].headline}}</h2>
-        <Carousel :cards='cards' />
-      </div>
-    </main>
-  </div>
+  <main> 
+    <h1>{{ headline }}</h1>
+    <div>
+      <Carousel :cards='cards' />
+    </div>
+  </main>
 </template>
 
 <script>
 import Carousel from '~/components/carousel/Carousel'
 export default {
-  name: 'app',
+  name: 'TheCarousel',
   components: { Carousel },
   data() {
     return {
@@ -26,9 +23,9 @@ export default {
       ],
       cards: [
         {
-          headline: 'Slide 1',
+          headline: 'Corrado Rendo - Bbummi su nun ti scantari',
           text:
-            'By using the CachingAPI all static elements on an app can be pre-cached',
+            'Noi non vogliamo perdere o dimenticare questa Sicilia tradizionale che è nel nostro cuore, ma vogliamo ricordarla con la stessa tenerezza e nostalgia che stempera il ricordo di un amore passato.',
           imgName: 'setting.svg'
         },
         {

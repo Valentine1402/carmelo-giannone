@@ -1,5 +1,5 @@
 <template>
-  <ul class="text-center">
+  <ul class="text-center pt-12 md:pt-4 py-3">
     <li
       v-for='(_, index) in elements'
       class='dot'

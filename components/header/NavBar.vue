@@ -2,14 +2,13 @@
   <div>
     <nav 
       :class="{ 'scrolled': !view.atTopOfPage }"
-
-      class="groupNavDesktop flex justify-between p-5 fixed inset-1 h-16 bg-backgroundBlue md:bg-transparent">
-      <ul class="text-xs md:text-base">
+      class="groupNavDesktop flex justify-between p-5 fixed inset-1 h-16 bg-backgroundBlue md:bg-transparent text-blueList">
+      <ul class="text-xs md:text-base flex">
+        <!---->
+         <li>
+          <img class="h-12 rounded-lg pb-4 pr-3" src="~assets/svg/logo.svg" alt="">
+        </li> 
         <li>Carmelo Giannone</li>
-        <!-- <li>
-          <i class="fas fa-feather-alt"></i>
-          <img class"h-14 rounded-lg" src="~assets/img/logo.png" alt="">
-        </li> -->
       </ul>
       <ul class="flex">
         <li class="mx-5 nav-menu-desktop">
@@ -27,7 +26,7 @@
         <li @click="toggleNavMenu" class="nav-icon"><i class="fas fa-bars"></i></li>
       </ul>
     </nav>
-    <nav class="nav-menu-mobile w-full px-6 bg-backgroundBlue fixed top-12">
+    <nav class="nav-menu-mobile w-full px-6 bg-backgroundBlue fixed top-12 text-blueList">
       <!-- <div class="">
           <p class="text-right"><i class="fas fa-times"></i></p>
       </div> -->

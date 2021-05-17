@@ -1,8 +1,9 @@
 <template>
 <div>
-  <div class="flex justify-center  pt-48">
+  <div class="flex justify-center h-60 bg-blueMarine">
     <div class='card-carousel'>
       <ArrowButton
+        class="hidden"
         arrowType='left'
         @click.native='showPrevElement'
         :disabled='this.reachedMaxLeft'
@@ -14,17 +15,21 @@
         :imgName='currentElement.imgName'
       />
       <ArrowButton
+        class="hidden"
         arrowType='right'
         @click.native='showNextElement'
         :disabled='this.reachedMaxRight'
       />
     </div>
   </div>
-  <Indicators
+  <div class="bg-blueMarine">
+    <Indicators
       :elements='this.cards'
       :currentElementIndex='this.currentElementIndex'
       :showElement='this.showElement'
     />
+  </div>
+  
 </div>
 </template>
 <script>

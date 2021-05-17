@@ -1,11 +1,17 @@
 <template>
-  <div class="border h-96">main</div>
+  <div>
+    <the-carousel></the-carousel>
+    <shop></shop>
+  </div>
 </template>
-
 <script>
-export default {}
+import TheCarousel from '~/components/carousel/TheCarousel'
+import Shop from '~/components/books/Shop.vue'
+
+export default {
+  components: {
+    Shop,
+    TheCarousel
+  }
+}
 </script>
-
-<style>
-
-</style>

@@ -1,16 +1,14 @@
 <template>
   <div class="h-96 background-nav">
     <nav-bar></nav-bar>
-    <the-carousel></the-carousel>
   </div>
 </template>
 <script>
 import navBar from '~/components/header/NavBar'
-import TheCarousel from '~/components/carousel/TheCarousel'
+
 export default {
   components: {
-    navBar,
-    TheCarousel
+    navBar
   }
 }
 </script>
