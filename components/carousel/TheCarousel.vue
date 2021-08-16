@@ -29,15 +29,15 @@ export default {
           imgName: 'setting.svg'
         },
         {
-          headline: 'Slide 2',
+          headline: 'Umande',
           text:
-            'User inputs entered when offline are sent in the background once they get connectivity.',
+            "I dettagli delle descrizioni hanno un taglio cinematografico, non è difficile immergersi nei colori dell'africa. Il lettore p protetto verso straordinarie e caleidoscopiche atmosfere che solo il continente nero può offrire.",
           imgName: 'cloud.svg'
         },
         {
-          headline: 'Slide 3',
+          headline: 'Corrado Rendo - Innocenti evasioni',
           text:
-            'The Notifications API lets us send push notifications to re-engage users.',
+            "Amicizia, un gruppo di persone giovani che ha fatto di questo sentimento il fulcro di un'esperienza straordinaria e irripetibile.",
           imgName: 'antenna.svg'
         }
       ]

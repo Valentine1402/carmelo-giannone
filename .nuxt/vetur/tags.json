@@ -1,4 +1,7 @@
 {
+  "Contacts": {
+    "description": "Auto imported from components/contacts/Contacts.vue"
+  },
   "Books": {
     "description": "Auto imported from components/books/Books.vue"
   },
@@ -7,15 +10,6 @@
   },
   "BooksShop": {
     "description": "Auto imported from components/books/Shop.vue"
-  },
-  "FooterTheFooter": {
-    "description": "Auto imported from components/footer/TheFooter.vue"
-  },
-  "HeaderNavBar": {
-    "description": "Auto imported from components/header/NavBar.vue"
-  },
-  "HeaderTheHeader": {
-    "description": "Auto imported from components/header/TheHeader.vue"
   },
   "CarouselArrowButton": {
     "description": "Auto imported from components/carousel/ArrowButton.vue"
@@ -31,5 +25,20 @@
   },
   "CarouselTheCarousel": {
     "description": "Auto imported from components/carousel/TheCarousel.vue"
+  },
+  "Description": {
+    "description": "Auto imported from components/description/Description.vue"
+  },
+  "Memories": {
+    "description": "Auto imported from components/memories/Memories.vue"
+  },
+  "HeaderNavBar": {
+    "description": "Auto imported from components/header/NavBar.vue"
+  },
+  "HeaderTheHeader": {
+    "description": "Auto imported from components/header/TheHeader.vue"
+  },
+  "FooterTheFooter": {
+    "description": "Auto imported from components/footer/TheFooter.vue"
   }
 }

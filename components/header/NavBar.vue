@@ -2,52 +2,60 @@
   <div>
     <nav 
       :class="{ 'scrolled': !view.atTopOfPage }"
-      class="groupNavDesktop flex justify-between p-5 fixed inset-1 h-16 bg-backgroundBlue md:bg-transparent text-blueList">
+      class="groupNavDesktop flex justify-between w-screen p-5 fixed inset-1 h-16 bg-backgroundBlue md:bg-transparent text-blueList">
       <ul class="text-xs md:text-base flex">
         <!---->
          <li>
           <img class="h-12 rounded-lg pb-4 pr-3" src="~assets/svg/logo.svg" alt="">
         </li> 
-        <li>Carmelo Giannone</li>
+        <li class="pt-2"><a href="#">Carmelo Giannone</a></li>
       </ul>
       <ul class="flex">
         <li class="mx-5 nav-menu-desktop">
-          {{ item.who }}
+          <a href="#who">{{ item.who }}</a> 
         </li>
         <li class="mx-5 nav-menu-desktop">
-          {{ item.products }}
+          <a href="#products">{{ item.products }}</a> 
         </li>
         <li class="mx-5 nav-menu-desktop">
-          {{ item.articles }}
+          <a href="#articles">{{ item.articles }}</a> 
         </li>
         <li class="mx-5 nav-menu-desktop">
-          {{ item.contact }}
+          <a href="#contact">{{ item.contact }}</a> 
         </li>
-        <li @click="toggleNavMenu" class="nav-icon"><i class="fas fa-bars"></i></li>
+        <li @click="toggleNavMenu" class="nav-icon"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path v-if="!isActive" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <path
+              v-if="isActive"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+              class="text-blueList"
+            />
+          </svg></li>
       </ul>
     </nav>
-    <nav class="nav-menu-mobile w-full px-6 bg-backgroundBlue fixed top-12 text-blueList">
+    <nav class="nav-menu-mobile w-full px-6 bg-blueList fixed top-16 text-white">
       <!-- <div class="">
           <p class="text-right"><i class="fas fa-times"></i></p>
       </div> -->
-    <transition name="fade"> 
       <div v-if="isActive">
-        <ul class="flex-col">
+        <ul class="flex-col"  @click="toggleNavMenu">
           <li class="py-2">
-            {{ item.who }}
+            <a href="#who">{{ item.who }}</a> 
           </li>
           <li class="py-2">
-            {{ item.products }}
+            <a href="#products">{{ item.products }}</a> 
           </li>
           <li class="py-2">
-            {{ item.articles }}
+            <a href="#articles">{{ item.articles }}</a> 
           </li>
           <li class="py-2">
-            {{ item.contact }}
+            <a href="#contact">{{ item.contact }}</a> 
           </li>
         </ul>
       </div>
-    </transition>
     </nav>
   </div>
 </template>
@@ -59,8 +67,9 @@ export default {
       item: {
         who: 'Chi sono',
         products: 'Libri',
-        articles: 'Articoli',
-        contact:'Contattami'
+        articles: 'Ricordi',
+        contact:'Contattami',
+        print: 'In stampa'
       },
       view: {
         atTopOfPage: true

@@ -6,7 +6,7 @@
       <p class="text-backgroundBlue text-xs md:text-base p-4 md:py-8 md:mx-1 mt-3 md:mt-0 text-center">{{ text }}</p>
       <span class="flex self-end text-6xl h-12 text-white"> 〞 </span>
     </section>
-      <h3 class='text-semibold text-blueList text-center text-xs md:text-base'>{{headline}}</h3>
+      <h3 class='text-bold text-blueList text-center text-xs md:text-base'>{{headline}}</h3>
     </div>
   </div>
 </template>

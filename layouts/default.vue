@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <the-header></the-header>
     <Nuxt />
     <the-footer></the-footer>
@@ -16,5 +16,4 @@ export default {
     TheFooter
   }
 }
-
 </script>

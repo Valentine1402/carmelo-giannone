@@ -11,7 +11,7 @@
       <ul class="md:flex text-center md:justify-center text-3xs md:text-sm lg:text-base">
       <li class="mx-3">{{ item.date }}</li><span class="hidden md:block">|</span>
       <li class="mx-3">{{ item.name }}</li><span class="hidden md:block">|</span>
-      <li class="mx-3">{{ item.creator }} <a :href="item.link">Valentine</a></li><span class="hidden md:block">|</span>
+      <li class="mx-3">{{ item.creator }} <a target="blank" :href="item.link">Valentine</a></li><span class="hidden md:block">|</span>
       <li class="mx-3">{{ item.rights }}</li><span class="hidden md:block">|</span>
       <li class="mx-3">{{ item.privacy }}</li>
     </ul>
@@ -27,7 +27,7 @@ export default {
         date: '©2021',
         name: 'Carmelo Giannone',
         creator: 'Powered by',
-        link:'',
+        link:'https://www.linkedin.com/in/valentinagiannone/',
         rights:'All rights reserved',
         privacy: 'Privacy & Cookie Policy'
       }
