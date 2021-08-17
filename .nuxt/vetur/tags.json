@@ -1,7 +1,4 @@
 {
-  "Contacts": {
-    "description": "Auto imported from components/contacts/Contacts.vue"
-  },
   "Books": {
     "description": "Auto imported from components/books/Books.vue"
   },
@@ -29,6 +26,9 @@
   "Description": {
     "description": "Auto imported from components/description/Description.vue"
   },
+  "FooterTheFooter": {
+    "description": "Auto imported from components/footer/TheFooter.vue"
+  },
   "Memories": {
     "description": "Auto imported from components/memories/Memories.vue"
   },
@@ -38,7 +38,7 @@
   "HeaderTheHeader": {
     "description": "Auto imported from components/header/TheHeader.vue"
   },
-  "FooterTheFooter": {
-    "description": "Auto imported from components/footer/TheFooter.vue"
+  "Contacts": {
+    "description": "Auto imported from components/contacts/Contacts.vue"
   }
 }
