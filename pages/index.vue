@@ -1,6 +1,7 @@
 <template>
   <div>
     <the-carousel></the-carousel>
+    <new></new>
     <shop></shop>
     <description></description>
     <contacts></contacts>
@@ -13,6 +14,7 @@ import Shop from '~/components/books/Shop.vue'
 import Description from '~/components/description/Description.vue'
 import Contacts from '~/components/contacts/Contacts.vue'
 import Memories from '~/components/memories/Memories.vue'
+import New from '~/components/new/New.vue'
 export default {
   components: {
     Shop,
