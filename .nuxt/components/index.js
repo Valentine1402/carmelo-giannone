@@ -11,11 +11,11 @@ export { default as CarouselSlider } from '../../components/carousel/Slider.vue'
 export { default as CarouselTheCarousel } from '../../components/carousel/TheCarousel.vue'
 export { default as Contacts } from '../../components/contacts/Contacts.vue'
 export { default as Description } from '../../components/description/Description.vue'
+export { default as FooterTheFooter } from '../../components/footer/TheFooter.vue'
 export { default as HeaderNavBar } from '../../components/header/NavBar.vue'
 export { default as HeaderTheHeader } from '../../components/header/TheHeader.vue'
-export { default as FooterTheFooter } from '../../components/footer/TheFooter.vue'
-export { default as New } from '../../components/new/New.vue'
 export { default as Memories } from '../../components/memories/Memories.vue'
+export { default as New } from '../../components/new/New.vue'
 
 export const LazyBookPresentation = import('../../components/bookPresentation/Presentation.vue' /* webpackChunkName: "components/book-presentation" */).then(c => wrapFunctional(c.default || c))
 export const LazyBooks = import('../../components/books/Books.vue' /* webpackChunkName: "components/books" */).then(c => wrapFunctional(c.default || c))
@@ -28,8 +28,8 @@ export const LazyCarouselSlider = import('../../components/carousel/Slider.vue' 
 export const LazyCarouselTheCarousel = import('../../components/carousel/TheCarousel.vue' /* webpackChunkName: "components/carousel-the-carousel" */).then(c => wrapFunctional(c.default || c))
 export const LazyContacts = import('../../components/contacts/Contacts.vue' /* webpackChunkName: "components/contacts" */).then(c => wrapFunctional(c.default || c))
 export const LazyDescription = import('../../components/description/Description.vue' /* webpackChunkName: "components/description" */).then(c => wrapFunctional(c.default || c))
+export const LazyFooterTheFooter = import('../../components/footer/TheFooter.vue' /* webpackChunkName: "components/footer-the-footer" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderNavBar = import('../../components/header/NavBar.vue' /* webpackChunkName: "components/header-nav-bar" */).then(c => wrapFunctional(c.default || c))
 export const LazyHeaderTheHeader = import('../../components/header/TheHeader.vue' /* webpackChunkName: "components/header-the-header" */).then(c => wrapFunctional(c.default || c))
-export const LazyFooterTheFooter = import('../../components/footer/TheFooter.vue' /* webpackChunkName: "components/footer-the-footer" */).then(c => wrapFunctional(c.default || c))
-export const LazyNew = import('../../components/new/New.vue' /* webpackChunkName: "components/new" */).then(c => wrapFunctional(c.default || c))
 export const LazyMemories = import('../../components/memories/Memories.vue' /* webpackChunkName: "components/memories" */).then(c => wrapFunctional(c.default || c))
+export const LazyNew = import('../../components/new/New.vue' /* webpackChunkName: "components/new" */).then(c => wrapFunctional(c.default || c))

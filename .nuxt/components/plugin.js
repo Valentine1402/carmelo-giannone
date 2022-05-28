@@ -13,11 +13,11 @@ const components = {
   CarouselTheCarousel: () => import('../../components/carousel/TheCarousel.vue' /* webpackChunkName: "components/carousel-the-carousel" */).then(c => wrapFunctional(c.default || c)),
   Contacts: () => import('../../components/contacts/Contacts.vue' /* webpackChunkName: "components/contacts" */).then(c => wrapFunctional(c.default || c)),
   Description: () => import('../../components/description/Description.vue' /* webpackChunkName: "components/description" */).then(c => wrapFunctional(c.default || c)),
+  FooterTheFooter: () => import('../../components/footer/TheFooter.vue' /* webpackChunkName: "components/footer-the-footer" */).then(c => wrapFunctional(c.default || c)),
   HeaderNavBar: () => import('../../components/header/NavBar.vue' /* webpackChunkName: "components/header-nav-bar" */).then(c => wrapFunctional(c.default || c)),
   HeaderTheHeader: () => import('../../components/header/TheHeader.vue' /* webpackChunkName: "components/header-the-header" */).then(c => wrapFunctional(c.default || c)),
-  FooterTheFooter: () => import('../../components/footer/TheFooter.vue' /* webpackChunkName: "components/footer-the-footer" */).then(c => wrapFunctional(c.default || c)),
-  New: () => import('../../components/new/New.vue' /* webpackChunkName: "components/new" */).then(c => wrapFunctional(c.default || c)),
-  Memories: () => import('../../components/memories/Memories.vue' /* webpackChunkName: "components/memories" */).then(c => wrapFunctional(c.default || c))
+  Memories: () => import('../../components/memories/Memories.vue' /* webpackChunkName: "components/memories" */).then(c => wrapFunctional(c.default || c)),
+  New: () => import('../../components/new/New.vue' /* webpackChunkName: "components/new" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

@@ -32,19 +32,19 @@
   "Description": {
     "description": "Auto imported from components/description/Description.vue"
   },
+  "FooterTheFooter": {
+    "description": "Auto imported from components/footer/TheFooter.vue"
+  },
   "HeaderNavBar": {
     "description": "Auto imported from components/header/NavBar.vue"
   },
   "HeaderTheHeader": {
     "description": "Auto imported from components/header/TheHeader.vue"
   },
-  "FooterTheFooter": {
-    "description": "Auto imported from components/footer/TheFooter.vue"
+  "Memories": {
+    "description": "Auto imported from components/memories/Memories.vue"
   },
   "New": {
     "description": "Auto imported from components/new/New.vue"
-  },
-  "Memories": {
-    "description": "Auto imported from components/memories/Memories.vue"
   }
 }

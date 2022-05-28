@@ -4,9 +4,15 @@
       Presentazione del libro Umande
     </h1>
     <h3>CIRCOLO TENNIS EUR</h3>
-    <h4 class="pb-4">Viale dell'Artigianato, 35 Roma - ore 17.30</h4>
+    <h4 class="pb-4">
+      Viale dell'Artigianato, 35 Roma - Giovedì 9 giugno - ore 17.30
+    </h4>
     <div class="pb-10 flex justify-center">
-      <img class="w-28 md:w-80" src="~/assets/img/presentation.JPG" alt="" />
+      <img
+        class="w-28 md:w-80"
+        src="~/assets/img/memories/presentation1.jpeg"
+        alt=""
+      />
     </div>
   </section>
 </template>
