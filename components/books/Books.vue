@@ -11,6 +11,7 @@
         :description="card.description"
         :editor="card.editor"
         :year="card.year"
+        :id="card.id"
       ></card>
     </div>
   </div>
