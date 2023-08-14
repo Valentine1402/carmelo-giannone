@@ -1,8 +1,8 @@
 <template>
   <div>
     <the-carousel></the-carousel>
+     <new></new>
     <presentation></presentation>
-    <new></new>
     <shop></shop>
     <description></description>
     <contacts></contacts>
