@@ -19,7 +19,7 @@ export default {
           {
           id: 0,
           title:'L\'ombra delle piramidi',
-          description: "Umande, ormai diciannovenne, intraprende un viaggio, alla ricerca del suo passato. Attraverserà il sud est d'Europa e alcuni stati nord africani prima di raggiungere la sua metà, il Tanganika. L'Egitto rappresenterà, per lei, quanto di più immaginifico potesse sognare di vedere. Tradimenti, incontri con personaggi incredibili, animali feroci, ladri di reperti preziosi faranno da cornice al viaggio ma l'amore inaspettato e improvviso sarà ciò che determinerà il suo futuro.",
+          description: "Umande, ormai diciannovenne, intraprende un viaggio, alla ricerca del suo passato. Attraverserà il sud est d'Europa e alcuni stati nord africani prima di raggiungere la sua meta, il Tanganika. L'Egitto rappresenterà, per lei, quanto di più immaginifico potesse sognare di vedere. Tradimenti, incontri con personaggi incredibili, animali feroci, ladri di reperti preziosi faranno da cornice al viaggio ma l'amore inaspettato e improvviso sarà ciò che determinerà il suo futuro.",
           image: 'piramidi.jpg',
           year: '2023',
           editor:'La bussola'
