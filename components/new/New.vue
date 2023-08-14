@@ -12,22 +12,37 @@
         </a>
         <span  v-if="readMoreActivated" v-html="longText"></span>
     </div>
-    <div class="text-headingBlue text-center bg-backgroundBlue flex flex-row justify-center " >
-      <div>
-     <p class=" pb-4 text-lg pt-2">Acquista il nuovo libro su </p>
-     </div>
+    <div class="text-headingBlue text-center bg-backgroundBlue flex flex-row justify-center items-center" >
+    
+     <p class="text-lg">Acquista il nuovo libro su </p>
+
+         <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold ">
+          <div class="flex justify-center flex-row items-center">
+  
+          <img
+          class="w-14 md:w-20 ml-2 mr-2 mb-4 mt-4"
+          src="~/assets/img/amz.png"
+          alt=""
+        />
+      
+     <p class="font-bold cursor-pointer ">CLICCA QUI</p> 
+      </div>
+     </a>
      <div>
-      <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold "> <img
-        class="w-10 md:w-14 mt-2 ml-2"
-        src="~/assets/img/amz.png"
-        alt=""
-      /></a>
+
+    
+   
      </div>
       </div>
-    <div class="bg-backgroundBlue pb-10 flex justify-center">
-      <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold ">
+    <div class="bg-backgroundBlue pb-10 flex justify-center ">
+      <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold relative">
+        <div class="absolute top-0 right-0"> <img
+        class="w-20"
+        src="~/assets/img/novita.png"
+        alt=""
+      /></div>
       <img
-        class="w-28 md:w-80"
+        class=" md:w-80"
         src="~/assets/img/books/piramidi.jpg"
         alt=""
       />
