@@ -6,13 +6,24 @@
       Nuova pubblicazione
     </h1>
     <div class= "bg-backgroundBlue  text-headingBlue md:px-10 px-6">  
-      <span v-if="!readMoreActivated">{{longText.slice(0, 190)}}</span>
+      <span v-if="!readMoreActivated">{{longText.slice(0, 188)}}</span>
       <a class="font-bold cursor-pointer" v-if="!readMoreActivated" @click="activateReadMore">
             leggi di più...
         </a>
         <span  v-if="readMoreActivated" v-html="longText"></span>
     </div>
-        <p class="text-headingBlue text-center bg-backgroundBlue pb-4 text-lg pt-2">Acquista il nuovo libro <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold ">qui</a></p>
+    <div class="text-headingBlue text-center bg-backgroundBlue flex flex-row justify-center " >
+      <div>
+     <p class=" pb-4 text-lg pt-2">Acquista il nuovo libro su </p>
+     </div>
+     <div>
+      <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold "> <img
+        class="w-10 md:w-14 mt-2 ml-2"
+        src="~/assets/img/amz.png"
+        alt=""
+      /></a>
+     </div>
+      </div>
     <div class="bg-backgroundBlue pb-10 flex justify-center">
       <a href="https://www.amazon.it/dp/B0CCT1Y412?ref_=cm_sw_r_apin_dp_J79A41BRS2SSSYCK4VYM" target="_blank" class="cursor-pointer font-bold ">
       <img
