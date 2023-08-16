@@ -26,7 +26,7 @@ export default {
    height: 500px;
   background-size: cover;
 background-position: center center;
-      background-image: url("~assets/img/mobileImg.png");
+      background-image: url("~assets/img/homeMobile.png");
   } 
 }
 
